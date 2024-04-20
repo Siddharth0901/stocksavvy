@@ -1,0 +1,146 @@
+
+ .referFriends{
+  border-radius: 0px;
+  border: 0px;
+  background: linear-gradient(#ff861e,#ff4a02);
+  color:#fff;
+  font-size:10px;
+  padding:10px;
+  text-align:center;
+ }
+ .referFriends a{
+  color:white;
+  text-decoration:none;
+
+ }
+@font-face{
+  font-family:'Glyphicons Halfings';
+  src:url(css/glyphicons-halfings-regular.ttf)format('truetype')
+
+}
+.view{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:100px;
+}
+.backButton{
+  border:1px solid #ccc;
+  border-radius: 4px;
+  color:#999;
+  cursor:pointer;
+  font-size:20px;
+  font-weight:bold;
+  height:35px;
+  left:10px;
+  line-height:35px;
+  position:absolute;
+  text-align:center;
+  top:0;
+  width:35px;
+}
+.body {
+	text-rendering: optimizelegibility;
+	margin: 0px;
+}
+
+#vipicon {
+	position:absolute;
+	left:3px;
+	bottom:3px;
+	z-index:20;
+	display:none;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid #ccc;
+  position:absolute;
+  top:1px;
+  left:0px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid #ccc;
+  position:absolute;
+  bottom:0px;
+  left:0px;
+}
+
+.arrow-container {
+	width:5px;
+}
+
+.sup, .sdown {
+	color:blue;
+}
+
+.sup .arrow-up {
+	border-bottom: 5px solid blue;
+}
+
+.sdown .arrow-down {
+	border-top: 5px solid blue;
+}
+
+#stockList{
+
+  --display: flex;
+  --flex-wrap: wrap;
+  
+  }
+.cellContainer {
+	--flex:100%;
+}
+.stockHeatMap {
+  color:white;
+  border:.5px solid;
+  --flex: 0 0 30%;
+  display:inline-block;
+  width:96px;
+  height:65px;
+  text-align:center;
+  background: radial-gradient(circle, rgba(182,119,119,1) 0%, rgba(177,34,20,1) 150%);
+}
+.stockHeatMap:hover {
+	border:1px solid;
+}
+.stkSym {
+	padding-top:5px;
+	font-size:12pt;
+	font-weight:400;
+}
+.stkPrice {
+	padding:2px;
+	font-size:10pt;
+}
+.stkChange {
+	padding-bottom:5px;
+	font-size:9pt;
+	white-space:nowrap;
+}
+
+.arrowicon {
+
+}
+
+.arrowicon:hover {
+	filter: brightness(30%);
+}
+
+#orderReview span {
+	font-weight:400;
+	font-size: 14pt;
+}
+.priceDef {
+	padding:5px;
+	cursor:pointer;
+}
